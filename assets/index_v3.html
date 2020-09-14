@@ -19,8 +19,16 @@
       padding: 0.25em 0;
     }
     #btnGo {
-      width: 100%;
+      width: 50%;
       font-size: 1.5em;
+      text-align: center;
+      position: absolute;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    #headStyle {
+      text-align: center;
+      font-size= 2.5em;
     }
     #list a {
       margin: 1em;
@@ -36,12 +44,6 @@
   </div>
   <div class="box">
     <button id="btnGo">Go</button>
-  </div>
-  <div class="box">
-    <span>Line:</span>
-    <select id="selNode"></select>
-  </div>
-  <div class="box" id="list">
   </div>
   <script>
     const PAGE_CONF_SET = 110
