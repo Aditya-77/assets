@@ -87,8 +87,6 @@ jsproxy_config({
   url_handler: {
     'https://www.baidu.com/img/baidu_resultlogo@2.png': {
     },
-    'https://www.pornhub.com/': {
-    },
     'http://haha.com/': {
     },
   }
